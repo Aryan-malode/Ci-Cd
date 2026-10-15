@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to Cloud Computing Lab"
+    return "Welcome to Cloud Computing Lab, changes made automated deployment using webhooks"
 
 @app.route("/student")
 def student():
